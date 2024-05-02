@@ -11,8 +11,8 @@ interface Props {
 
 function GameCard({ game }: Props) {
   return (
-    <Card borderRadius={10} overflow="hidden">
-      <Box height={"60%"} overflow={"hidden"}>
+    <Card borderRadius={10} overflow="hidden" width={"300px"}>
+      <Box height={"200px"} overflow={"hidden"}>
         <Image
           src={game.background_image}
           objectFit={"cover"}
