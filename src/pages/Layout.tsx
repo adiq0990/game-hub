@@ -6,7 +6,7 @@ function Layout() {
   return (
     <>
       <NavBar />
-      <Box padding={10}>
+      <Box padding={5}>
         <Outlet />
       </Box>
     </>
